@@ -1,5 +1,21 @@
 # MVP-Retrofit2-okhttp3-Rxjava2
 MVP-Retrofit2-okhttp3-Rxjava2网络请求,开发实用,简约框架
+使用教程：
+Step 1. Add the JitPack repository to your build file
+```
+ allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+dependencies {
+	        implementation 'com.github.wellkong:MVP-Retrofit2-okhttp3-Rxjava2:1.0.0'
+	}
+ ```
 ## 前言
 目前较火的网络请求有MVP+Retrofit2+okhttp3+Rxjava2，使用这个框架也有一段时间了，也看了一些大神的封装，这里就对别人封装的框架进行总结和收集。
 
